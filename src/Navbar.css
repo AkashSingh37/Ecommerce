@@ -1,0 +1,36 @@
+.navbar {
+    background-color: blue; /* Change background color to blue */
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  /* Other styles remain the same */
+  
+  .navbar__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar__title {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .navbar__buttons {
+    display: flex;
+  }
+  
+  .navbar__button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+  
+  .navbar__button:hover {
+    text-decoration: underline;
+  }
+  

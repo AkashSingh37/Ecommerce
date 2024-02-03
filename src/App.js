@@ -1,7 +1,15 @@
+import React from 'react';
+import Navbar from './Navbar';
+import Login from './Login';
+import './Login.css';
+
 function App() {
   return (
-    <div>
-      <h1>Let's Go</h1>
+    <div className="App">
+      <Navbar />
+      {/* Other components or content */}
+      <Login />
+      {/* Other components or content */}
     </div>
   );
 }
